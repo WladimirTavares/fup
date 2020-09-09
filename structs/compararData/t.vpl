@@ -1,0 +1,59 @@
+case 1 = Test 1
+input =2
+4
+2000
+1
+4
+2000
+output ="Mais recente"
+grade reduction = 100%
+
+case 2 = Test 2
+input =2
+3
+1999
+1
+4
+2000
+output ="Mais antiga"
+grade reduction = 100%
+
+case 3 = Test 3
+input =1
+4
+2000
+2
+4
+2000
+output ="Mais antiga"
+grade reduction = 100%
+
+case 4 = Test 4
+input =1
+4
+2000
+2
+4
+2001
+output ="Mais antiga"
+grade reduction = 100%
+
+case 5 = Test 5
+input =1
+5
+2000
+2
+4
+2000
+output ="Mais recente"
+grade reduction = 100%
+
+case 6 = Test 6
+input =1
+5
+2000
+1
+5
+2000
+output ="Iguais"
+grade reduction = 100%

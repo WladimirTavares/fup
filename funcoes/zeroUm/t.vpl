@@ -1,0 +1,47 @@
+case=
+input=0 0 0
+output="*
+"
+grade reduction=100%
+
+case=
+input=0 0 1
+output="C
+"
+grade reduction=100%
+
+case=
+input=0 1 0
+output="B
+"
+grade reduction=100%
+
+case=
+input=0 1 1
+output="A
+"
+grade reduction=100%
+
+case=
+input=1 0 0
+output="A
+"
+grade reduction=100%
+
+case=
+input=1 0 1
+output="B
+"
+grade reduction=100%
+
+case=
+input=1 1 0
+output="C
+"
+grade reduction=100%
+
+case=
+input=1 1 1
+output="*
+"
+grade reduction=100%

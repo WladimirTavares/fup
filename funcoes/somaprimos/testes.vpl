@@ -1,0 +1,37 @@
+case=
+input=10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+output="4
+"
+grade reduction=100%
+
+case=
+input=5
+2
+3
+5
+7
+11
+output="5
+"
+grade reduction=100%
+
+case=
+input=5
+1
+4
+6
+8
+9
+output="0
+"
+grade reduction=100%

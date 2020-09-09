@@ -1,0 +1,17 @@
+case=
+input=Roberto
+output="roberto
+"
+grade reduction=100%
+
+case=
+input=A Casa Caiu
+output="a casa caiu
+"
+grade reduction=100%
+
+case=
+input=AbAcAtE
+output="abacate
+"
+grade reduction=100%

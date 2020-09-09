@@ -1,0 +1,137 @@
+case=
+input=1
+output="1
+"
+grade reduction=100%
+
+case=
+input=2
+output="3
+"
+grade reduction=100%
+
+case=
+input=3
+output="7
+"
+grade reduction=100%
+
+case=
+input=4
+output="15
+"
+grade reduction=100%
+
+case=
+input=5
+output="31
+"
+grade reduction=100%
+
+case=
+input=6
+output="63
+"
+grade reduction=100%
+
+case=
+input=7
+output="127
+"
+grade reduction=100%
+
+case=
+input=8
+output="255
+"
+grade reduction=100%
+
+case=
+input=9
+output="511
+"
+grade reduction=100%
+
+case=
+input=10
+output="1023
+"
+grade reduction=100%
+
+case=
+input=15
+output="32767
+"
+grade reduction=100%
+
+case=
+input=20
+output="1048575
+"
+grade reduction=100%
+
+case=
+input=25
+output="33554431
+"
+grade reduction=100%
+
+case=
+input=30
+output="1073741823
+"
+grade reduction=100%
+
+case=
+input=40
+output="1099511627775
+"
+grade reduction=100%
+
+case=
+input=42
+output="4398046511103
+"
+grade reduction=100%
+
+case=
+input=45
+output="35184372088831
+"
+grade reduction=100%
+
+case=
+input=50
+output="1125899906842623
+"
+grade reduction=100%
+
+case=
+input=55
+output="36028797018963967
+"
+grade reduction=100%
+
+case=
+input=60
+output="1152921504606846975
+"
+grade reduction=100%
+
+case=
+input=61
+output="2305843009213693951
+"
+grade reduction=100%
+
+case=
+input=62
+output="4611686018427387903
+"
+grade reduction=100%
+
+case=
+input=63
+output="9223372036854775807
+"
+grade reduction=100%

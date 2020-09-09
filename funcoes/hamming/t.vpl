@@ -1,0 +1,139 @@
+case=
+input=GTTA
+CCGC
+output="4
+"
+grade reduction=100%
+
+case=
+input=GG
+TT
+output="2
+"
+grade reduction=100%
+
+case=
+input=GGAA
+AATT
+output="4
+"
+grade reduction=100%
+
+case=
+input=GGTCGCCTCC
+GTTGGTAGCT
+output="6
+"
+grade reduction=100%
+
+case=
+input=CAGGA
+GTCTA
+output="4
+"
+grade reduction=100%
+
+case=
+input=GACAAGCAGGGTTA
+GCCTCCCTCTAGAG
+output="11
+"
+grade reduction=100%
+
+case=
+input=ATTAAAGTG
+TGAATGGTG
+output="5
+"
+grade reduction=100%
+
+case=
+input=TCCACGCAATCCCTCGGTA
+CGAAACCTCCTTTACCTAT
+output="16
+"
+grade reduction=100%
+
+case=
+input=CTATCTCTTAAGA
+TGAAAGGCTACCG
+output="10
+"
+grade reduction=100%
+
+case=
+input=ATTTT
+GATCA
+output="4
+"
+grade reduction=100%
+
+case=
+input=TATCTCCATCATG
+CTGGCTGTAATCG
+output="12
+"
+grade reduction=100%
+
+case=
+input=A
+G
+output="1
+"
+grade reduction=100%
+
+case=
+input=ACATTTCGT
+CCAGGAACG
+output="7
+"
+grade reduction=100%
+
+case=
+input=CGCTAGT
+GATATAT
+output="6
+"
+grade reduction=100%
+
+case=
+input=AGGCGCA
+ATCCGAA
+output="3
+"
+grade reduction=100%
+
+case=
+input=GAGAGAA
+CAGCAAT
+output="4
+"
+grade reduction=100%
+
+case=
+input=GTTGGTCACATGAAGTAGAA
+ACCCATTTCGGAGAACTTAT
+output="16
+"
+grade reduction=100%
+
+case=
+input=AGGCCTCTAC
+GTCATTATTA
+output="8
+"
+grade reduction=100%
+
+case=
+input=GGACCAAG
+AAGAGAAC
+output="6
+"
+grade reduction=100%
+
+case=
+input=GAGGAC
+TGCGGC
+output="4
+"
+grade reduction=100%

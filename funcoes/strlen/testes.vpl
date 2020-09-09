@@ -1,0 +1,17 @@
+case=
+input=Brasil
+output="6
+"
+grade reduction=100%
+
+case=
+input=A Casa Caiu
+output="11
+"
+grade reduction=100%
+
+case=
+input=AbacAtE
+output="7
+"
+grade reduction=100%
