@@ -2,7 +2,7 @@
 
 ## Motivação
 
-Escreva uma função que recebe um vetor de inteiros e seu tamanho como parâmetros, e devolve a soma dos números primos deste vetor.
+Escreva uma função que recebe um vetor de inteiros e seu tamanho como parâmetros, e devolve a quantidade de números primos deste vetor.
 A função deve obedecer ao seguinte protótipo: 
 
 ```c
@@ -16,7 +16,7 @@ A função deve obedecer ao seguinte protótipo:
 A primeira linha da entrada contém um inteiro N indicando o número de elementos do vetor. A seguir, há N inteiros que correspondem aos elementos do vetor.
 
 ### Saída
-A saída é a soma dos números primos do vetor.
+A saída é a quantidade de números primos do vetor.
 
 ## Exemplos
 
