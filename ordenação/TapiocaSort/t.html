@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Readme</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="tapiocasort">TapiocaSort</h1>
+<p>Preparar a pilha perfeita de tapiocas é uma tarefa complicada, porque não importa como você tenta todas as tapiocas em qualquer pilha têm diâmetros diferentes. Para o bem da limpeza, no entanto, você pode ordenar a pilha por tamanho de forma que cada tapioca seja menor do que todos os panquecas abaixo dela. O tamanho de uma panqueca é dado pelo seu diâmetro.</p>
+<p>A ordenação de uma pilha é feita por uma sequência de “viradas” de tapiocas. Uma virada consiste em inserir uma espátula entre duas tapiocas em uma pilha e virando (invertendo) todas as panquecas em a espátula (invertendo a subpilha).</p>
+<p>Uma virada é especificado dando a posição da tapioca na parte inferior da subpilha a ser virada em relação a toda a pilha. A panqueca de baixo tem a posição 1, enquanto a panqueca de cima em uma pilha de n panquecas tem posição n.</p>
+<p>Uma pilha é especificada dando o diâmetro de cada tapioca na pilha na ordem em que aparecem as tapiocas. Por exemplo, considere uma pilha de tapiocas abaixo em que a tapioca 5 é a primeira tapioca do vetor:</p>
+<p>topo -&gt; 5 1 2 3 4 |</p>
+<p>Fazendo a operação <code>virada 1</code> (a espátula está representada por |), obtemos a seguinte pilha de tapiocas:</p>
+<p>topo -&gt; 4 3 2 1 | 5</p>
+<p>Fazendo a operação <code>virada 2</code>, obtemos a seguinte pilha de tapiocas:</p>
+<p>topo -&gt; 1 2 3 4 5</p>
+<p>Observe que a pilha de tapioca pode ser ordenada utilizando duas operações de virada.</p>
+<h2 id="entrada">Entrada</h2>
+<p>A primeira linha da entrada contém um inteiro N representando o número de tapiocas.</p>
+<p>A segunda linha contém N inteiros positivos representando uma pilha de tapiocas. Cada tapioca terá um diâmetro entre 1 e 30.</p>
+<h2 id="saída">Saída</h2>
+<p>Seu programa deve imprimir uma sequência de viradas que resulte na pilha de tapioca ordenada de maneira que a maior tapioca está na parte inferior e a menor tapioca na parte superior. A sequência de viradas deve terminar com 0, indicando que não são mais necessárias viradas.</p>
+<p>Exemplo de Entrada</p>
+<pre><code>5
+5 1 2 3 4</code></pre>
+<p>Exemplo de Saída</p>
+<pre><code>1 2 0</code></pre>
+<p>Exemplo de Entrada</p>
+<pre><code>5
+5 4 3 2 1</code></pre>
+<p>Exemplo de Saída</p>
+<pre><code>1 0</code></pre>
+</body>
+</html>
