@@ -25,6 +25,16 @@
 - [TapiocaSort](ordenacao/TapiocaSort/Readme.md)
 - [Vacina](ordenacao/Vacina/Readme.md)
 
+## Struct
+
+- [Circle](structs/Circle/Readme.md)
+- [compararData](structs/compararData/Readme.md)
+- [Fracao](structs/Fracao/Readme.md)
+- [parProximo](structs/parProximo/Readme.md)
+- [Rectangle](structs/Rectangle/Readme.md)
+
+
+
 ## Recursão
 
 - [Binômio de Newton](recursão/BinomioNewton/Readme.md)
@@ -32,6 +42,26 @@
 - [Coeficientes Binomais](recursão/coeficientes_binomiais/Readme.md)
 - [Padovan](recursão/Padovan/Readme.md)
 - [Pell](recursão/Pell/Readme.md)
+
+## Busca Binária
+
+- [Pão a metro](busca_binaria/pao_metro/Readme.md)
+- [Vacas Agressivas](busca_binaria/vacas_agressivas/Readme.md)
+- [Busca Binária](busca_binaria/busca_binaria/Readme.md)
+
+## Ponteiros
+
+- [Criando Matrizes](Ponteiros/criando_matrizes/Readme.md)
+- [Matriz Identidade](Ponteiros/matriz_identidade/Readme.md)
+- [Segundos para tempo](Ponteiros/segundos_para_tempo/Readme.md)
+- [Segundos para tempo 2](Ponteiros/segundos_para_tempo2/Readme.md)
+- [Ordenar nomes](Ponteiros/ordena_vetor_strings/Readme.md)
+
+
+
+
+
+
 
 
 

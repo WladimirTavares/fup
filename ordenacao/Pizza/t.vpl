@@ -209,3 +209,12 @@ rvgtwisjaxqxeucistkn  60
 output="lxkfypleytiristhylz
 "
 grade reduction=100%
+
+case=
+input=3
+ac 100
+ab 100
+aa 100
+output="aa
+"
+grade reduction=100%
