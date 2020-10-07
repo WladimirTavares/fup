@@ -43,7 +43,7 @@ int main(){
 	Data d2 = {4,5,2000};
 	compare res;
 	res = compararDatas(d1,d2); //LT
-	printf("%d\n", res);	
+	printf("%d\n", res); //0	
 }
 ```
 

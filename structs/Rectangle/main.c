@@ -5,30 +5,30 @@ typedef struct  {
 } Ponto;
 
 typedef struct {
-   Ponto supEsq;
-   Ponto infDir; 
+  Ponto supEsq;
+  Ponto infDir; 	
 } Retangulo;
+
+Ponto createPonto(int x1, int y1){
+	Ponto p = {x1, y1};
+	return p;
+}
+
+Retangulo createRetangulo(int x1, int y1, int x2, int y2) {
+	Retangulo r = {x1,y1,x2,y2};	
+	return r;
+};
 
 int dentro(Retangulo r, Ponto p);
 
-
 int main(){
-	
-	Retangulo r = {0,5,5,0};
-	Ponto p1 = {2,2};
-	printf("%d\n", dentro(r,p1) ); //1
-	Ponto p2 = {2,7};
-	printf("%d\n", dentro(r,p2) ); //0
-	Ponto p3 = {-1,4};
-	printf("%d\n", dentro(r,p3) ); //0
-	Ponto p4 = {2,-1};
-	printf("%d\n", dentro(r,p4) ); //0
-	Ponto p5 = {5,5};
-	printf("%d\n", dentro(r,p5) ); //1
-	
-	
-	
-
+	int x1, y1, x2, y2;
+	scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
+	Retangulo r = createRetangulo(x1, y1, x2, y2);
+	int x, y;
+	scanf("%d %d", &x, &y);
+	Ponto p = createPonto(x,y);	
+	printf("%d\n", dentro(r,p) ); //1
 }
 
 

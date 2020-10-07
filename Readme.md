@@ -25,6 +25,17 @@
 - [TapiocaSort](ordenacao/TapiocaSort/Readme.md)
 - [Vacina](ordenacao/Vacina/Readme.md)
 
+## Recursão
+
+- [Binômio de Newton](recursão/BinomioNewton/Readme.md)
+- [Catalan](recursão/Catalan/Readme.md)
+- [Coeficientes Binomais](recursão/coeficientes_binomiais/Readme.md)
+- [Padovan](recursão/Padovan/Readme.md)
+- [Pell](recursão/Pell/Readme.md)
+
+
+
+
 
 
 

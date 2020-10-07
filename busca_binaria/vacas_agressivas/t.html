@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Readme</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="vacas-agressivas">Vacas Agressivas</h1>
+<p>Guthyerri está construindo um novo estábulo com N (2 &lt;= N &lt;= 100.000) baias. As baias estão localizadas ao longo de uma linha reta nas posições x1, …, xN (0 &lt;= xi &lt;= 1.000.000.000).</p>
+<p>Porém, suas C vacas (2 &lt;= C &lt;= N) não gostaram desse layout de estábulo e tornaram-se agressivas umas com as outras quando colocadas em um estábulo. Para evitar que as vacas se machuquem, Guthyerri quer colocá-las nas baias, de forma que a menor distância entre duas delas seja a maior possível. Qual é a maior distância mínima?</p>
+<p><strong>Entrada</strong></p>
+<p>A primeira linha contém dois inteiros N e C, representando o número de baias e o número de vacas.</p>
+<p>A segunda linhas contém N número inteiro representando a localização de uma baia.</p>
+<p><strong>Saída</strong></p>
+<p>Imprima um inteiro representando a maior distância mínima.</p>
+<p><strong>Exemplo de Entrada</strong></p>
+<pre><code>5 3
+1 2 8 4 9</code></pre>
+<p><strong>Exemplo de Saída</strong></p>
+<pre><code>3</code></pre>
+<p><strong>Explicação</strong></p>
+<p>Guthyerri pode colocar suas 3 vacas nas baias nas posições 1, 4 e 8, resultando em uma distância mínima de 3.</p>
+<p><strong>Dica</strong></p>
+<p>Defina uma função F(x) tal que F(x) = 1 se for possível organizar as vacas em baias de modo que a distância entre quaisquer duas vacas seja pelo menos x. F(x) = 0, caso contário.</p>
+</body>
+</html>

@@ -101,24 +101,30 @@
 <span id="cb3-5"><a href="#cb3-5"></a>} Ponto;</span>
 <span id="cb3-6"><a href="#cb3-6"></a></span>
 <span id="cb3-7"><a href="#cb3-7"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
-<span id="cb3-8"><a href="#cb3-8"></a>   Ponto supEsq;</span>
-<span id="cb3-9"><a href="#cb3-9"></a>   Ponto infDir; </span>
+<span id="cb3-8"><a href="#cb3-8"></a>  Ponto supEsq;</span>
+<span id="cb3-9"><a href="#cb3-9"></a>  Ponto infDir;     </span>
 <span id="cb3-10"><a href="#cb3-10"></a>} Retangulo;</span>
 <span id="cb3-11"><a href="#cb3-11"></a></span>
-<span id="cb3-12"><a href="#cb3-12"></a><span class="dt">int</span> dentro(Retangulo r, Ponto p);</span>
-<span id="cb3-13"><a href="#cb3-13"></a></span>
-<span id="cb3-14"><a href="#cb3-14"></a><span class="dt">int</span> main(){</span>
-<span id="cb3-15"><a href="#cb3-15"></a>    Retangulo r = {<span class="dv">0</span>,<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">0</span>};</span>
-<span id="cb3-16"><a href="#cb3-16"></a>    Ponto p1 = {<span class="dv">2</span>,<span class="dv">2</span>};</span>
-<span id="cb3-17"><a href="#cb3-17"></a>    printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, dentro(r,p1) ); <span class="co">//1</span></span>
-<span id="cb3-18"><a href="#cb3-18"></a>    Ponto p2 = {<span class="dv">2</span>,<span class="dv">7</span>};</span>
-<span id="cb3-19"><a href="#cb3-19"></a>    printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, dentro(r,p2) ); <span class="co">//0</span></span>
-<span id="cb3-20"><a href="#cb3-20"></a>    Ponto p3 = {-<span class="dv">1</span>,<span class="dv">4</span>};</span>
-<span id="cb3-21"><a href="#cb3-21"></a>    printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, dentro(r,p3) ); <span class="co">//0</span></span>
-<span id="cb3-22"><a href="#cb3-22"></a>    Ponto p4 = {<span class="dv">2</span>,-<span class="dv">1</span>};</span>
-<span id="cb3-23"><a href="#cb3-23"></a>    printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, dentro(r,p4) ); <span class="co">//0</span></span>
-<span id="cb3-24"><a href="#cb3-24"></a>    Ponto p5 = {<span class="dv">5</span>,<span class="dv">5</span>};</span>
-<span id="cb3-25"><a href="#cb3-25"></a>    printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, dentro(r,p5) ); <span class="co">//1</span></span>
-<span id="cb3-26"><a href="#cb3-26"></a>}</span></code></pre></div>
+<span id="cb3-12"><a href="#cb3-12"></a>Ponto createPonto(<span class="dt">int</span> x1, <span class="dt">int</span> y1){</span>
+<span id="cb3-13"><a href="#cb3-13"></a>    Ponto p = {x1, y1};</span>
+<span id="cb3-14"><a href="#cb3-14"></a>    <span class="cf">return</span> p;</span>
+<span id="cb3-15"><a href="#cb3-15"></a>}</span>
+<span id="cb3-16"><a href="#cb3-16"></a></span>
+<span id="cb3-17"><a href="#cb3-17"></a>Retangulo createRetangulo(<span class="dt">int</span> x1, <span class="dt">int</span> y1, <span class="dt">int</span> x2, <span class="dt">int</span> y2) {</span>
+<span id="cb3-18"><a href="#cb3-18"></a>    Retangulo r = {x1,y1,x2,y2};    </span>
+<span id="cb3-19"><a href="#cb3-19"></a>    <span class="cf">return</span> r;</span>
+<span id="cb3-20"><a href="#cb3-20"></a>};</span>
+<span id="cb3-21"><a href="#cb3-21"></a></span>
+<span id="cb3-22"><a href="#cb3-22"></a><span class="dt">int</span> dentro(Retangulo r, Ponto p);</span>
+<span id="cb3-23"><a href="#cb3-23"></a></span>
+<span id="cb3-24"><a href="#cb3-24"></a><span class="dt">int</span> main(){</span>
+<span id="cb3-25"><a href="#cb3-25"></a>    <span class="dt">int</span> x1, y1, x2, y2;</span>
+<span id="cb3-26"><a href="#cb3-26"></a>    scanf(<span class="st">&quot;%d %d %d %d&quot;</span>, &amp;x1, &amp;y1, &amp;x2, &amp;y2);</span>
+<span id="cb3-27"><a href="#cb3-27"></a>    Retangulo r = createRetangulo(x1, y1, x2, y2);</span>
+<span id="cb3-28"><a href="#cb3-28"></a>    <span class="dt">int</span> x, y;</span>
+<span id="cb3-29"><a href="#cb3-29"></a>    scanf(<span class="st">&quot;%d %d&quot;</span>, &amp;x, &amp;y);</span>
+<span id="cb3-30"><a href="#cb3-30"></a>    Ponto p = createPonto(x,y); </span>
+<span id="cb3-31"><a href="#cb3-31"></a>    printf(<span class="st">&quot;%d</span><span class="sc">\n</span><span class="st">&quot;</span>, dentro(r,p) ); <span class="co">//1</span></span>
+<span id="cb3-32"><a href="#cb3-32"></a>}</span></code></pre></div>
 </body>
 </html>
