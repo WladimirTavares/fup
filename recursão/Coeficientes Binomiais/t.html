@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Readme</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="coeficientes-binomias">Coeficientes Binomias</h1>
+<p>Os coeficientes binomiais são muito importantes para a resolução de vários problemas de contagem. Por exemplo,</p>
+<p><code>C(n,k)</code> representa o número de maneiras de escolher <code>k</code> elementos de um conjunto de n elementos.</p>
+<p><code>C(n + k - 1,k)</code> representa o número de maneiras de escolher <code>k</code> elementos de um conjunto de n elementos se repetições são permitidas.</p>
+<p>Os coeficientes binomiais podem ser definidos usando a seguinte recursão:</p>
+<p><img src="https://latex.codecogs.com/svg.latex?C(n,k) = \begin{cases}1& ,k=0\\
+1 & ,k=n\\ C(n-1,k-1) + C(n-1, k)&,   1\leq k \leq n-1\end{cases}"></p>
+<p>Sua tarefa é dado dois inteiros n e k, calcula C(n,k).</p>
+<p><strong>Entrada</strong></p>
+<p>A primeira linha contendo dois inteiros n e k.</p>
+<p><strong>Saída</strong></p>
+<p>Imprima uma linha contendo C(n,k).</p>
+<p><strong>Exemplo de Entrada</strong></p>
+<pre><code>8 4</code></pre>
+<p><strong>Exemplo de Saída</strong></p>
+<pre><code>70</code></pre>
+</body>
+</html>

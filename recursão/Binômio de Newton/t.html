@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Readme</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="binômio-de-newton">Binômio de Newton</h1>
+<p>A fórmula do Binômio de Newton permite escrever uma expansão algébrica da potência de um binômio. Os casos mais estudados da fórmula do binômio de Newton são os seguintes:</p>
+<ul>
+<li><p><img src="https://latex.codecogs.com/svg.latex?(x+y)^2 = x^2 + 2xy + y^2"></p></li>
+<li><p><img src="https://latex.codecogs.com/svg.latex?(x+y)^3 = x^3 + 3x^2y + 3xy^2+y^3"></p></li>
+</ul>
+<p>A fórmula do Binômio de Newton pode ser descrita da seguinte maneira:</p>
+<p><img src="https://latex.codecogs.com/svg.latex?(x+y)^n = \sum_{k=0}^{n} C(n,k) x^{n-k}y^k"></p>
+<p>onde <code>C(n,k)</code> são os coeficientes binomiais.</p>
+<p>Sua tarefa é dada um inteiro n, escreva a fórmula do binômio de Newton para n dado.</p>
+<p><strong>Entrada</strong></p>
+<p>Uma linha contendo um inteiro n.</p>
+<p><strong>Saída</strong></p>
+<p>Imprima a fórmula do binômio do Newton para n.</p>
+<p><strong>Exemplo de Entrada</strong></p>
+<pre><code>5</code></pre>
+<p><strong>Exemplo de Saída</strong></p>
+<pre><code>(x+y)^5 = x^5 + 5x^4y^1 + 10x^3y^2 + 10x^2y^3 + 5x^1y^4 + y^5</code></pre>
+<p><strong>Exemplo de Entrada</strong></p>
+<pre><code>8</code></pre>
+<p><strong>Exemplo de Saída</strong></p>
+<pre><code>(x+y)^8 = x^8 + 8x^7y^1 + 28x^6y^2 + 56x^5y^3 + 70x^4y^4 + 56x^3y^5 + 28x^2y^6 + 8x^1y^7 + y^8</code></pre>
+</body>
+</html>

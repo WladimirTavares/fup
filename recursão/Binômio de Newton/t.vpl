@@ -1,0 +1,23 @@
+case=
+input=5
+output="(x+y)^5 = x^5 + 5x^4y^1 + 10x^3y^2 + 10x^2y^3 + 5x^1y^4 + y^5
+"
+grade reduction=100%
+
+case=
+input=4
+output="(x+y)^4 = x^4 + 4x^3y^1 + 6x^2y^2 + 4x^1y^3 + y^4
+"
+grade reduction=100%
+
+case=
+input=9
+output="(x+y)^9 = x^9 + 9x^8y^1 + 36x^7y^2 + 84x^6y^3 + 126x^5y^4 + 126x^4y^5 + 84x^3y^6 + 36x^2y^7 + 9x^1y^8 + y^9
+"
+grade reduction=100%
+
+case=
+input=10
+output="(x+y)^10 = x^10 + 10x^9y^1 + 45x^8y^2 + 120x^7y^3 + 210x^6y^4 + 252x^5y^5 + 210x^4y^6 + 120x^3y^7 + 45x^2y^8 + 10x^1y^9 + y^10
+"
+grade reduction=100%

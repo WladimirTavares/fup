@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Readme</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="números-de-catalan">Números de Catalan</h1>
+<p>Os números de Catalan são definidos pela seguinte recursão:</p>
+<p><img src="https://latex.codecogs.com/svg.latex?C(n) = \begin{cases}1,&n=0\\\ \frac{2(2n-1)}{n+1}C(n-1) & n > 0\end{cases}"></p>
+<p>Alguns números desta sequência são: 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786…</p>
+<p>O número de Catalan está associado com vários problemas de contagem. Por exemplo, <span class="math inline"><em>C</em>(<em>n</em>)</span> conta o número de expressões contendo n pares de parantêses que estão corretamente balanceada.</p>
+<table>
+<thead>
+<tr class="header">
+<th>n</th>
+<th>C(n)</th>
+<th>Expressões</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>1</td>
+<td>()</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>2</td>
+<td>()(),(())</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>5</td>
+<td>()()(),()(()),(()()),((())),(())()</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Entrada</strong></p>
+<p>Uma linha contendo um inteiro n representando o índice de um número de Catalan.</p>
+<p><strong>Saída</strong></p>
+<p>Imprima uma linha contendo n-ésimo número de Catalan.</p>
+<p>Entrada</p>
+<pre><code>5</code></pre>
+<p>Saída</p>
+<pre><code>42</code></pre>
+</body>
+</html>
